@@ -1,0 +1,62 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+    *{
+      font-size: 11px;
+    } 
+    body{
+      margin: 0 auto;
+    }
+    th, td{
+	    	text-align: center;
+	    }
+		.titulo{
+			color: darkred;
+		}
+		.titulo2{
+			color: blue;
+			font-weight: bold;
+		}
+		.titulo3{
+			color: darkred;
+			text-align: center;
+			font-weight: bold;
+		}
+    .container-fluid{
+      width: 778px;
+      background: #6186AF;
+    }
+    .well{
+      padding: 10px;
+      background: none;
+      border: none;
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: white;
+      border: none;
+
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 10px;
+      background-color: #6186AF;
+      min-height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      padding-top: 15px;
+      font-weight: bold;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 778px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
